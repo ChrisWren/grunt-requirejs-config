@@ -1,0 +1,29 @@
+{
+  "name": "grunt-requirejs-config",
+  "version": "0.0.0",
+  "description": "grunt task to prepend a require.js config to a file",
+  "main": "tasks/index.js",
+  "scripts": {
+    "test": "grunt test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ChrisWren/grunt-requirejs-config.git"
+  },
+  "keywords": [
+    "grunt",
+    "plugin",
+    "require.js",
+    "config"
+  ],
+  "author": "ChrisWren",
+  "license": "MIT",
+  "devDependencies": {
+    "grunt": "~0.4.1",
+    "grunt-simple-mocha": "~0.4.0",
+    "should": "~1.2.2"
+  },
+  "peerDependencies": {
+    "grunt": "~0.4.1"
+  }
+}
