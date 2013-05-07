@@ -49,6 +49,25 @@ require(['appController'], function (AppController) {
   AppController();
 });
 ```
+The output `dest` file looks like:
+```javascript
+// Config added by grunt-requirejs-config
+require.config({
+  "shim": {
+    "underscore": {
+      "exports": "_"
+    }
+  },
+  "paths": {
+    "jquery": "libs/jquery",
+    "underscore": "libs/underscore"
+  }
+});
+
+require(['appController'], function (AppController) {
+  AppController();
+});
+```
 This file starts the app after the config has been set.
 ## Required fields
 ### src
