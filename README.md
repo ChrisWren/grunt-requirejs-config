@@ -1,4 +1,7 @@
 # grunt-requirejs-config
+[![NPM version](https://badge.fury.io/js/grunt-requirejs-config.png)](http://badge.fury.io/js/grunt-requirejs-config)
+[![Dependency Status](https://gemnasium.com/ChrisWren/grunt-requirejs-config.png)](https://gemnasium.com/ChrisWren/grunt-requirejs-config)
+[![Build Status](https://travis-ci.org/ChrisWren/grunt-requirejs-config.png)](https://travis-ci.org/ChrisWren/grunt-requirejs-config)
 
 > Write your require.js config once in your Gruntfile and prepend it to files for development
 
