@@ -24,7 +24,7 @@ module.exports = function(grunt) {
         src: ['test/test.js']
       }
     },
-    requireconfig: {
+    requirejsconfig: {
       dev: {
         src: 'test/fixtures/fixture.js',
         dest: 'test/main.js',
@@ -36,7 +36,7 @@ module.exports = function(grunt) {
     }
   });
 
-  grunt.registerTask('default', ['requireconfig']);
+  grunt.registerTask('default', ['requirejsconfig']);
   grunt.registerTask('test', ['simplemocha']);
   grunt.loadNpmTasks('grunt-simple-mocha');
   grunt.loadTasks('tasks');
