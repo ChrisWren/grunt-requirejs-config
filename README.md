@@ -87,3 +87,5 @@ Any option will be used as a property passed to the require.js config. [Here](ht
 # Changelog
 
 **0.0.0** - Initial release
+
+**0.0.1** - Fixed registered task name
