@@ -14,3 +14,5 @@ results
 npm-debug.log
 .nodemonignore
 node_modules
+
+test/main.js
