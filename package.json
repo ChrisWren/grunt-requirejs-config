@@ -1,6 +1,6 @@
 {
   "name": "grunt-requirejs-config",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "grunt task to prepend a require.js config to a file",
   "main": "tasks/index.js",
   "scripts": {
