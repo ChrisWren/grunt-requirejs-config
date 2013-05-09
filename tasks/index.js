@@ -14,6 +14,7 @@ module.exports = function (grunt) {
       fs.appendFileSync(this.data.dest, 'require.config(' + JSON.stringify(options, null, '  ') + ');\n');
       fs.appendFileSync(this.data.dest, configContents);
       grunt.log.ok('Require.js config created at: ' + this.data.dest);
+      done();
     } else {
       grunt.log.error('No source file found at: ' + this.data.src);
       done();
