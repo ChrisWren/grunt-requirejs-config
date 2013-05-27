@@ -11,8 +11,7 @@
     "url": "https://github.com/ChrisWren/grunt-requirejs-config.git"
   },
   "keywords": [
-    "grunt",
-    "plugin",
+    "gruntplugin",
     "require.js",
     "config"
   ],
