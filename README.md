@@ -72,14 +72,14 @@ require(['appController'], function (AppController) {
 });
 ```
 This file starts the app after the config has been set.
-## Required fields
+## Required properties
 ### src
-Type: `string`
+Type: `String`
 
 This is file that require-config uses as your base file to prepend the configuration.
 
 ### dest
-Type: `string`
+Type: `String`
 
 This is the destination of the generated config file.
 
