@@ -10,6 +10,9 @@ module.exports = function(grunt) {
       init: function (bar) {
         return this.Foo.noConflict();
       }
+    },
+    'bar-complex': {
+      exports: 'module'
     }
   };
 
