@@ -51,6 +51,7 @@ module.exports = function(grunt) {
   grunt.registerTask('default', ['requirejsconfig']);
   grunt.registerTask('test', ['simplemocha']);
   grunt.loadNpmTasks('grunt-simple-mocha');
+  grunt.loadNpmTasks('grunt-release');
   grunt.loadTasks('tasks');
 };
 
