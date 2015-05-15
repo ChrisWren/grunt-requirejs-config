@@ -86,6 +86,7 @@ This is the destination of the generated config file.
 Any option will be used as a property passed to the require.js config. [Here](https://github.com/jrburke/r.js/blob/master/build/example.build.js) is a page describing all of the options.
 
 # Changelog
+**0.1.0** - Allow full function print in require.js config
 
 **0.0.2** - Called `done()` on async task
 
