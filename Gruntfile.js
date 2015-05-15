@@ -3,12 +3,24 @@ module.exports = function(grunt) {
   var requireShim = {
     underscore: {
       exports: '_'
+    },
+    foo: {
+      exports: 'module',
+      deps: ['bar'],
+      init: function (bar) {
+        return this.Foo.noConflict();
+      }
+    },
+    'bar-complex': {
+      exports: 'module'
     }
   };
 
   var requirePaths = {
     jquery: 'libs/jquery',
-    underscore: 'libs/underscore'
+    underscore: 'libs/underscore',
+    foo: 'libs/foo',
+    bar: 'libs/bar'
   };
 
   grunt.initConfig({
